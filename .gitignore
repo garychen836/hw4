@@ -1,0 +1,21 @@
+# Secrets / environments
+.env
+**/.env
+.env.*
+!.env.example
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/node_modules/
+**/dist/
+.DS_Store
+*.log
+
+# Do NOT commit the database or product images
+data/
+*.db
+*.zip
+
+# Local preview tooling
+.claude/

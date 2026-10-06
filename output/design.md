@@ -1,0 +1,16 @@
+# Campus Customs: Design
+
+What we changed so the site feels like a real Campus Customs storefront, and why it should help customers stick around and buy. These are design reasons, not measured results (we have no traffic or sales data).
+
+| Area | What we changed | Why it should help |
+|---|---|---|
+| **Fonts** | Libre Baskerville (a collegiate serif) for headlines and prices on the home page, *italic* accents ("Bright College *Years,*"); Open Sans for body text and the nav; Nunito Sans for the logo, headings, and card titles. | Feels like Yale rather than a template, while body text stays easy to read. |
+| **Color** | Yale blue `#00356b` with a deep-navy gradient and diagonal texture in the hero; Harvard red only in "The Game" banner; light-gray `#f4f4f4` behind every product; black buttons; green for "In stock", red for "Sold out", orange for "Only N left". | On-brand and calm, so products stand out; stock colors tell shoppers instantly what they can buy. |
+| **Hierarchy** | Home flows from the hero (headline, real products, 2 buttons) → shop by collection (one large tile + four small) → The Game → shop by category (circles with "25 styles · from $45") → best sellers → help → promises. The product page puts the photo left and price → stock → size → button → details right. | Every screen has one obvious next step, and price and availability come before the fine print. |
+| **Motion** | Floating product collage in the hero; a scrolling ticker ("Lux et Veritas · Boola Boola…"); cards lift and zoom on hover; chat results slide in with staggered cards; shimmering placeholder cards while loading; the bulldog mascot bobs, blinks, and **trots across a track while the assistant works**. Motion turns off for shoppers who prefer reduced motion. | Small movement makes the page feel alive and shows that something is happening during waits, without getting in the way of shopping. |
+| **Product presentation** | Cleaned photos (jagged black cut-outs moved to a soft gray background); cards with photo, name, type, two-line description, price, and a "Sold out" badge; an Amazon-style product page with a size picker showing stock per size; collection tiles (Colleges, Sports, Family, Schools, Classics) and The Game feature. | Consistent, honest presentation builds trust; collections match how people shop for Yale gear ("my college", "a gift for Dad"). |
+| **Chat feel** | An original bulldog mascot as the assistant's face (chat button, header, beside replies) with a **thought cloud and running animation** while it searches; progress text ("Searching the catalogue… → Checking sizes and stock…"); product cards inside replies; **the matching items also appear on the page itself** ("Matching items from your chat", with "See all N matches"); page-aware starter chips and "Ask about this item"; a full-screen chat on phones. | The assistant feels like a friendly store helper rather than a form, and its answers turn straight into products shoppers can click and buy. |
+
+**Most distinctive touches:** the chat that puts its results on the page as shoppable cards, the trotting and thinking bulldog mascot, and the red-vs-blue "The Game" banner.
+
+All wording is original. We used our own product photos and an original mascot, not Yale's or the bookstore's logos or images. Details for each change are in `output/usability.md`.
